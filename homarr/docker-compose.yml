@@ -1,0 +1,9 @@
+docker run  \
+  --name homarr \
+  --restart unless-stopped \
+  -p 7575:7575 \
+  -v /var/run/docker.sock:/var/run/docker.sock \
+  -v /mnt/capozzi/docker/homarr/configs:/app/data/configs \
+  -v /mnt/capozzi/docker/homarr/data:/data \
+  -v /mnt/capozzi/docker/homarr/icons:/app/public/icons \
+  -d ghcr.io/ajnart/homarr:latest
