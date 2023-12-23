@@ -19,6 +19,7 @@ network:
   renderer: networkd
   ethernets:
     $interface:
+      dhcp4: no
       addresses: [$ip_address/24]
       gateway4: $gateway
       nameservers:
