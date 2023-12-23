@@ -34,7 +34,7 @@ worker1=192.168.40.204
 worker2=192.168.40.205
 
 # User of remote machines
-user=ubuntu
+user=josh
 
 # Interface used on remotes
 interface=eth0
