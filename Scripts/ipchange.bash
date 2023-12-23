@@ -1,5 +1,4 @@
 #!/bin/bash
-# Script to adjust network settings
 
 # Prompt the user for information
 read -p "Enter the desired static IP address: " ip_address
@@ -14,15 +13,21 @@ interface=$(ip route | grep default | awk '{print $5}')
 sudo cp /etc/netplan/01-netcfg.yaml /etc/netplan/01-netcfg.yaml.bak
 
 # Create a new Netplan configuration file with the provided settings
-echo "network:" | sudo tee /etc/netplan/01-netcfg.yaml
-echo "  version: 2" | sudo tee -a /etc/netplan/01-netcfg.yaml
-echo "  renderer: networkd" | sudo tee -a /etc/netplan/01-netcfg.yaml
-echo "  ethernets:" | sudo tee -a /etc/netplan/01-netcfg.yaml
-echo "    $interface:" | sudo tee -a /etc/netplan/01-netcfg.yaml
-echo "      addresses: [$ip_address/24]" | sudo tee -a /etc/netplan/01-netcfg.yaml
-echo "      gateway4: $gateway" | sudo tee -a /etc/netplan/01-netcfg.yaml
-echo "      nameservers:" | sudo tee -a /etc/netplan/01-netcfg.yaml
-echo "        addresses: [$dns]" | sudo tee -a /etc/netplan/01-netcfg.yaml
+cat <<EOL | sudo tee /etc/netplan/01-netcfg.yaml
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    $interface:
+      addresses: [$ip_address/24]
+      gateway4: $gateway
+      nameservers:
+        addresses: [$dns]
+EOL
+
+# Set secure permissions on the Netplan directory and configuration file
+sudo chmod 750 /etc/netplan
+sudo chmod 640 /etc/netplan/01-netcfg.yaml
 
 # Apply the new configuration
 sudo netplan apply
