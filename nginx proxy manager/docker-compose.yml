@@ -21,5 +21,5 @@ services:
       # DISABLE_IPV6: 'true'
 
     volumes:
-      - /home/josh/containers/data:/data
-      - /home/josh/containers/letsencrypt:/etc/letsencrypt
+      - /home/josh/containers/nginxpm/data:/data
+      - /home/josh/containers/nginxpm/letsencrypt:/etc/letsencrypt
