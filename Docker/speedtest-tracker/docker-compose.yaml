@@ -10,9 +10,10 @@ services:
             - APP_KEY=$APP_KEY # How to generate an app key: https://speedtest-tracker.dev/
             - APP_URL=http://localhost
             - DB_CONNECTION=sqlite
+            - APP_DEBUG=true
             # - SPEEDTEST_SCHEDULE= # optional: schedule a speedtest with an cronjob https://crontab.guru
         volumes:
-            - /path/to/data:/config
-            - /path/to-custom-ssl-keys:/config/keys
+            - $CONFIG_PATH:/config
+            - $SSL_KEYS_PATH:/config/keys
         image: lscr.io/linuxserver/speedtest-tracker:latest
         restart: unless-stopped
