@@ -7,7 +7,7 @@ services:
         environment:
             - PUID=1000
             - PGID=1000
-            - APP_KEY= # How to generate an app key: https://speedtest-tracker.dev/
+            - APP_KEY=$APP_KEY # How to generate an app key: https://speedtest-tracker.dev/
             - APP_URL=http://localhost
             - DB_CONNECTION=sqlite
             # - SPEEDTEST_SCHEDULE= # optional: schedule a speedtest with an cronjob https://crontab.guru
