@@ -11,7 +11,7 @@ services:
             - APP_URL=http://localhost
             - DB_CONNECTION=sqlite
             - APP_DEBUG=true
-            # - SPEEDTEST_SCHEDULE= # optional: schedule a speedtest with an cronjob https://crontab.guru
+            - SPEEDTEST_SCHEDULE=0 22 * * 1-5 # optional: schedule a speedtest with an cronjob https://crontab.guru
         volumes:
             - $CONFIG_PATH:/config
             - $SSL_KEYS_PATH:/config/keys
