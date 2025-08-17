@@ -1,0 +1,6 @@
+# Ignore secrets and env files
+**/.env
+**/.env.*
+**/secrets/*
+# Ignore system files
+.DS_Store
