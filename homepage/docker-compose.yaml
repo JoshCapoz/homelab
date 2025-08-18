@@ -6,7 +6,7 @@ services:
       - 3000:3000
     env_file: .env # use .env
     volumes:
-      - /path/to/config:/app/config # Make sure your local config directory exists
+      - /home/josh/docker/homepage:/app/config # Make sure your local config directory exists
       - /var/run/docker.sock:/var/run/docker.sock # (optional) For docker integrations, see alternative methods
     environment:
       PUID: $PUID # read them from .env
