@@ -2,3 +2,10 @@
 # url: https://proxmox.host.or.ip:8006
 # token: username@pam!Token ID
 # secret: secret
+
+# config/proxmox.yaml
+url: https://192.168.60.11:8006
+token: api@pam!homepage
+secret: affe7daf-3ea2-4c25-8832-6a7e6b418f70
+# If you use a self-signed cert and see TLS errors, set:
+# insecure_skip_verify: true

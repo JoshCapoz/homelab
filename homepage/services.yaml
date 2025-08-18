@@ -2,17 +2,48 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/configs/services/
 
-- My First Group:
-    - My First Service:
-        href: http://localhost/
-        description: Homepage is awesome
+- Media:
+    - Plex:
+        icon: plex.png
+        href: http://192.168.50.20:32400/web
+        description: Media server
+        siteMonitor: http://192.168.50.20:32400
+    - Sonarr:
+        icon: sonarr.png
+        href: http://192.168.50.21:8989
+        description: Series management
+        widget:
+          type: sonarr
+          url: http://192.168.50.21:8989
+          key: apikeyapikeyapikeyapikeyapikey
+    - Radarr:
+        icon: radarr.png
+        href: http://192.168.50.22:7878
+        description: Movie management
+        widget:
+          type: radarr
+          url: http://192.168.50.22:7878
+          key: apikeyapikeyapikeyapikeyapikey
 
-- My Second Group:
-    - My Second Service:
-        href: http://localhost/
-        description: Homepage is the best
-
-- My Third Group:
-    - My Third Service:
-        href: http://localhost/
-        description: Homepage is 😎
+- Infrastructure:
+    - Proxmox:
+        icon: proxmox.png
+        href: https://192.168.60.11:8006
+        description: Virtualization host
+        ping: 192.168.60.11
+    - Portainer:
+        icon: portainer.png
+        href: https://192.168.60.13:9443
+        description: Container management
+        siteMonitor: https://192.168.50.11:9443
+    - UniFi:
+        icon: unifi.png
+        href: https://192.168.50.15:8443
+        description: Net
+# Example: QEMU VM (defaults to proxmoxType: qemu)
+    - Portainer VM:
+        icon: portainer.png
+        href: https://192.168.60.13:9443
+        description: Container management
+        proxmoxNode: pve
+        proxmoxVMID: 101

@@ -594,3 +594,340 @@
 [2025-08-18T11:17:08.340Z] info: custom.css was copied to the config folder
 [2025-08-18T11:17:08.340Z] info: custom.js was copied to the config folder
 [2025-08-18T11:17:08.347Z] info: proxmox.yaml was copied to the config folder
+[2025-08-18T11:22:56.798Z] error: undefined
+[2025-08-18T11:22:56.800Z] error: undefined
+[2025-08-18T11:22:56.804Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:825:25)
+    at l (/app/.next/server/pages/index.js:1:27160)
+    at Wc (/app/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:68:44)
+    at Zc (/app/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:70:253)
+    at Z (/app/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:89)
+    at $c (/app/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+    at bd (/app/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:77:404)
+    at Z (/app/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:217)
+    at $c (/app/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+    at Zc (/app/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:71:145)
+[2025-08-18T11:22:56.810Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:825:25)
+    at l (/app/.next/server/pages/index.js:1:27160)
+    at Wc (/app/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:68:44)
+    at Zc (/app/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:70:253)
+    at Z (/app/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:89)
+    at $c (/app/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+    at bd (/app/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:77:404)
+    at Z (/app/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:217)
+    at $c (/app/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+    at Zc (/app/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:71:145)
+[2025-08-18T11:23:00.749Z] error: undefined
+[2025-08-18T11:23:00.750Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:825:25)
+    at l (/app/.next/server/pages/index.js:1:27160)
+    at Wc (/app/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:68:44)
+    at Zc (/app/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:70:253)
+    at Z (/app/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:89)
+    at $c (/app/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+    at bd (/app/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:77:404)
+    at Z (/app/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:217)
+    at $c (/app/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+    at Zc (/app/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:71:145)
+[2025-08-18T11:23:00.752Z] error: undefined
+[2025-08-18T11:33:15.052Z] error: <httpProxy> Error calling http://192.168.50.21:8989/api/v3/queue/details...
+[2025-08-18T11:33:15.053Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.21:8989
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.21:8989) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.21',
+    port: 8989
+  }
+]
+[2025-08-18T11:33:15.054Z] error: <httpProxy> Error calling https://192.168.50.11:9443/...
+[2025-08-18T11:33:15.054Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.11:9443
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.11:9443) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.11',
+    port: 9443
+  }
+]
+[2025-08-18T11:33:15.056Z] error: <httpProxy> Error calling http://192.168.50.20:32400/...
+[2025-08-18T11:33:15.056Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.20:32400
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.20:32400) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.20',
+    port: 32400
+  }
+]
+[2025-08-18T11:33:15.056Z] error: <httpProxy> Error calling http://192.168.50.21:8989/api/v3/series...
+[2025-08-18T11:33:15.057Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.21:8989
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.21:8989) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.21',
+    port: 8989
+  }
+]
+[2025-08-18T11:33:15.057Z] error: <httpProxy> Error calling http://192.168.50.21:8989/api/v3/queue...
+[2025-08-18T11:33:15.057Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.21:8989
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.21:8989) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.21',
+    port: 8989
+  }
+]
+[2025-08-18T11:33:15.058Z] error: <httpProxy> Error calling http://192.168.50.21:8989/api/v3/wanted/missing...
+[2025-08-18T11:33:15.058Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.21:8989
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.21:8989) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.21',
+    port: 8989
+  }
+]
+[2025-08-18T11:33:27.340Z] error: <httpProxy> Error calling http://192.168.50.22:7878/api/v3/movie...
+[2025-08-18T11:33:27.340Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.22:7878
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.22:7878) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.22',
+    port: 7878
+  }
+]
+[2025-08-18T11:33:27.341Z] error: <httpProxy> Error calling http://192.168.50.21:8989/api/v3/queue/details...
+[2025-08-18T11:33:27.341Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.21:8989
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.21:8989) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.21',
+    port: 8989
+  }
+]
+[2025-08-18T11:33:27.341Z] error: <httpProxy> Error calling http://192.168.50.21:8989/api/v3/queue...
+[2025-08-18T11:33:27.342Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.21:8989
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.21:8989) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.21',
+    port: 8989
+  }
+]
+[2025-08-18T11:33:27.342Z] error: <httpProxy> Error calling http://192.168.50.21:8989/api/v3/series...
+[2025-08-18T11:33:27.342Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.21:8989
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.21:8989) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.21',
+    port: 8989
+  }
+]
+[2025-08-18T11:33:27.343Z] error: <httpProxy> Error calling http://192.168.50.21:8989/api/v3/wanted/missing...
+[2025-08-18T11:33:27.343Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.21:8989
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.21:8989) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.21',
+    port: 8989
+  }
+]
+[2025-08-18T11:33:27.343Z] error: <httpProxy> Error calling http://192.168.50.20:32400/...
+[2025-08-18T11:33:27.343Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.20:32400
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.20:32400) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.20',
+    port: 32400
+  }
+]
+[2025-08-18T11:35:30.220Z] error: <httpProxy> Error calling http://192.168.50.20:32400/...
+[2025-08-18T11:35:30.220Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.20:32400
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.20:32400) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.20',
+    port: 32400
+  }
+]
+[2025-08-18T11:35:30.221Z] error: <httpProxy> Error calling https://192.168.50.11:9443/...
+[2025-08-18T11:35:30.221Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.11:9443
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.11:9443) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.11',
+    port: 9443
+  }
+]
+[2025-08-18T11:35:42.508Z] error: <httpProxy> Error calling http://192.168.50.20:32400/...
+[2025-08-18T11:35:42.509Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.20:32400
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.20:32400) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.20',
+    port: 32400
+  }
+]
+[2025-08-18T11:35:42.509Z] error: <httpProxy> Error calling http://192.168.50.22:7878/api/v3/queue/details...
+[2025-08-18T11:35:42.509Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.22:7878
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.22:7878) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.22',
+    port: 7878
+  }
+]
+[2025-08-18T11:35:42.510Z] error: <httpProxy> Error calling http://192.168.50.22:7878/api/v3/queue/status...
+[2025-08-18T11:35:42.510Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.22:7878
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.22:7878) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.22',
+    port: 7878
+  }
+]
+[2025-08-18T11:35:42.510Z] error: <httpProxy> Error calling https://192.168.50.11:9443/...
+[2025-08-18T11:35:42.511Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.11:9443
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.11:9443) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.11',
+    port: 9443
+  }
+]
+[2025-08-18T11:37:57.676Z] error: <httpProxy> Error calling https://192.168.50.11:9443/...
+[2025-08-18T11:37:57.676Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.11:9443
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.11:9443) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.11',
+    port: 9443
+  }
+]
+[2025-08-18T11:40:57.900Z] error: <httpProxy> Error calling http://192.168.50.22:7878/api/v3/queue/status...
+[2025-08-18T11:40:57.900Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.22:7878
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.22:7878) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.22',
+    port: 7878
+  }
+]
+[2025-08-18T11:40:57.901Z] error: <httpProxy> Error calling http://192.168.50.21:8989/api/v3/queue...
+[2025-08-18T11:40:57.901Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.21:8989
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.21:8989) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.21',
+    port: 8989
+  }
+]
+[2025-08-18T11:40:57.901Z] error: <httpProxy> Error calling http://192.168.50.21:8989/api/v3/queue/details...
+[2025-08-18T11:40:57.901Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.21:8989
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.21:8989) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.21',
+    port: 8989
+  }
+]
+[2025-08-18T11:40:57.902Z] error: <httpProxy> Error calling http://192.168.50.21:8989/api/v3/series...
+[2025-08-18T11:40:57.902Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.21:8989
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.21:8989) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.21',
+    port: 8989
+  }
+]
+[2025-08-18T11:40:57.902Z] error: <httpProxy> Error calling http://192.168.50.22:7878/api/v3/movie...
+[2025-08-18T11:40:57.902Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.22:7878
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.22:7878) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.22',
+    port: 7878
+  }
+]
+[2025-08-18T11:40:57.903Z] error: <httpProxy> Error calling http://192.168.50.21:8989/api/v3/wanted/missing...
+[2025-08-18T11:40:57.903Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.21:8989
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.21:8989) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.21',
+    port: 8989
+  }
+]

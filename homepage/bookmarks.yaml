@@ -2,17 +2,45 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/configs/bookmarks
 
-- Developer:
+- Misc:
     - Github:
         - abbr: GH
           href: https://github.com/
+    - Bitwarden:
+        - abbr: BW
+          href: https://vault.bitwarden.com/
+    - Gmail:
+        - abbr: GM
+          href: https://mail.google.com/
+    - Calendar:
+        - abbr: GC
+          href: https://calendar.google.com/calendar/
 
 - Social:
     - Reddit:
         - abbr: RE
           href: https://reddit.com/
+    - Twitter:
+        - abbr: TW
+          href: https://x.com/
+    - Discord:
+        - abbr: DC
+          href: https://discord.com/app
+    - LinkedIn:
+        - abbr: LK 
+          href: https://linkedin.com/
+
 
 - Entertainment:
     - YouTube:
         - abbr: YT
           href: https://youtube.com/
+    - Twitch:
+        - abbr: TW
+          href: https://twitch.tv/
+    - Spotify:
+        - abbr: SP
+          href: https://open.spotify.com/
+    - Netflix:
+        - abbr: NF
+          href: https://netflix.com

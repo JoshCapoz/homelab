@@ -10,3 +10,28 @@
 - search:
     provider: duckduckgo
     target: _blank
+
+- uptime: true
+
+- ping:
+    - name: Router
+      url: 192.168.50.1
+    - name: Pi-hole
+      url: 192.168.50.7
+
+- weather:
+    latitude: -31.95
+    longitude: 115.86
+    units: metric
+
+- datetime:
+    locale: en-AU
+    text_size: xl
+    format:
+      weekday: short        # e.g., Mon
+      day: 2-digit          # e.g., 18
+      month: short          # e.g., Aug
+      year: numeric         # e.g., 2025
+      hour: 2-digit
+      minute: 2-digit
+      hourCycle: h23        # 24-hour clock
