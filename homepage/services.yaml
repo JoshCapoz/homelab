@@ -31,19 +31,30 @@
         href: https://192.168.60.11:8006
         description: Virtualization host
         ping: 192.168.60.11
-    - Portainer:
-        icon: portainer.png
-        href: https://192.168.60.13:9443
-        description: Container management
-        siteMonitor: https://192.168.50.11:9443
+
+    - Pi-hole:
+        icon: pi-hole.png
+        href: http://192.168.50.6/admin
+        description: DNS & Ad blocking
+        siteMonitor: http://192.168.50.6/admin
+        widget:
+          type: pihole
+          url: http://192.168.50.6
+          version: 6                 # REQUIRED for v6+
+          #key: <your-app-password>   # v6: use your password or an app password
+          fields: ["queries", "blocked", "blocked_percent", "gravity"]
+
     - UniFi:
         icon: unifi.png
-        href: https://192.168.50.15:8443
-        description: Net
+        href: https://192.168.50.5:8443
+        description: Unifi Controller
+
 # Example: QEMU VM (defaults to proxmoxType: qemu)
-    - Portainer VM:
-        icon: portainer.png
-        href: https://192.168.60.13:9443
+
+    - Portainer LXC:
+        icon: pi-hole.png
+        href: http://192.168.60.13:9443
         description: Container management
         proxmoxNode: pve
-        proxmoxVMID: 101
+        proxmoxVMID: 300
+        proxmoxType: lxc

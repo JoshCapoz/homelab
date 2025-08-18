@@ -931,3 +931,484 @@
     port: 8989
   }
 ]
+[2025-08-18T11:42:48.697Z] error: <proxmoxStatsService> HTTP Error 500 calling Proxmox API
+[2025-08-18T11:44:39.084Z] error: <httpProxy> Error calling http://192.168.50.21:8989/api/v3/series...
+[2025-08-18T11:44:39.088Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.21:8989
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.21:8989) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.21',
+    port: 8989
+  }
+]
+[2025-08-18T11:44:39.089Z] error: <httpProxy> Error calling http://192.168.50.22:7878/api/v3/movie...
+[2025-08-18T11:44:39.089Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.22:7878
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.22:7878) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.22',
+    port: 7878
+  }
+]
+[2025-08-18T11:44:39.090Z] error: <httpProxy> Error calling http://192.168.50.21:8989/api/v3/wanted/missing...
+[2025-08-18T11:44:39.090Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.21:8989
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.21:8989) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.21',
+    port: 8989
+  }
+]
+[2025-08-18T11:44:39.091Z] error: <httpProxy> Error calling http://192.168.50.21:8989/api/v3/queue...
+[2025-08-18T11:44:39.091Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.21:8989
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.21:8989) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.21',
+    port: 8989
+  }
+]
+[2025-08-18T11:44:39.091Z] error: <httpProxy> Error calling http://192.168.50.21:8989/api/v3/queue/details...
+[2025-08-18T11:44:39.092Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.21:8989
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.21:8989) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.21',
+    port: 8989
+  }
+]
+[2025-08-18T11:44:39.093Z] error: <httpProxy> Error calling http://192.168.50.20:32400/...
+[2025-08-18T11:44:39.093Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.20:32400
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.20:32400) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.20',
+    port: 32400
+  }
+]
+[2025-08-18T11:45:03.660Z] error: <httpProxy> Error calling http://192.168.50.20:32400/...
+[2025-08-18T11:45:03.660Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.20:32400
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.20:32400) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.20',
+    port: 32400
+  }
+]
+[2025-08-18T11:45:03.661Z] error: <httpProxy> Error calling http://192.168.50.22:7878/api/v3/movie...
+[2025-08-18T11:45:03.661Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.22:7878
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.22:7878) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.22',
+    port: 7878
+  }
+]
+[2025-08-18T11:45:03.662Z] error: <httpProxy> Error calling http://192.168.50.21:8989/api/v3/queue...
+[2025-08-18T11:45:03.662Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.21:8989
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.21:8989) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.21',
+    port: 8989
+  }
+]
+[2025-08-18T11:45:03.662Z] error: <httpProxy> Error calling http://192.168.50.21:8989/api/v3/queue/details...
+[2025-08-18T11:45:03.662Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.21:8989
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.21:8989) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.21',
+    port: 8989
+  }
+]
+[2025-08-18T11:45:03.663Z] error: <httpProxy> Error calling http://192.168.50.21:8989/api/v3/wanted/missing...
+[2025-08-18T11:45:03.663Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.21:8989
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.21:8989) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.21',
+    port: 8989
+  }
+]
+[2025-08-18T11:45:03.664Z] error: <httpProxy> Error calling http://192.168.50.21:8989/api/v3/series...
+[2025-08-18T11:45:03.664Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.21:8989
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.21:8989) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.21',
+    port: 8989
+  }
+]
+[2025-08-18T11:45:03.664Z] error: <httpProxy> Error calling https://192.168.50.11:9443/...
+[2025-08-18T11:45:03.664Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.11:9443
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.11:9443) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.11',
+    port: 9443
+  }
+]
+[2025-08-18T11:45:03.665Z] error: <httpProxy> Error calling http://192.168.50.20:32400/...
+[2025-08-18T11:45:03.666Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.20:32400
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.20:32400) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.20',
+    port: 32400
+  }
+]
+[2025-08-18T11:45:03.693Z] error: <proxmoxStatsService> HTTP Error 500 calling Proxmox API
+[2025-08-18T11:46:54.251Z] error: <httpProxy> Error calling http://192.168.50.20:32400/...
+[2025-08-18T11:46:54.252Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.20:32400
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.20:32400) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.20',
+    port: 32400
+  }
+]
+[2025-08-18T11:47:18.828Z] error: <httpProxy> Error calling http://192.168.50.20:32400/...
+[2025-08-18T11:47:18.828Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.20:32400
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.20:32400) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.20',
+    port: 32400
+  }
+]
+[2025-08-18T11:47:18.829Z] error: <httpProxy> Error calling https://192.168.50.11:9443/...
+[2025-08-18T11:47:18.829Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.11:9443
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.11:9443) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.11',
+    port: 9443
+  }
+]
+[2025-08-18T11:47:18.829Z] error: <httpProxy> Error calling http://192.168.50.20:32400/...
+[2025-08-18T11:47:18.829Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.20:32400
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.20:32400) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.20',
+    port: 32400
+  }
+]
+[2025-08-18T11:47:18.830Z] error: <httpProxy> Error calling http://192.168.50.22:7878/api/v3/queue/details...
+[2025-08-18T11:47:18.830Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.22:7878
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.22:7878) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.22',
+    port: 7878
+  }
+]
+[2025-08-18T11:47:18.830Z] error: <httpProxy> Error calling http://192.168.50.22:7878/api/v3/queue/status...
+[2025-08-18T11:47:18.831Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.22:7878
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.22:7878) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.22',
+    port: 7878
+  }
+]
+[2025-08-18T11:47:18.831Z] error: <httpProxy> Error calling https://192.168.50.11:9443/...
+[2025-08-18T11:47:18.831Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.11:9443
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.11:9443) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.11',
+    port: 9443
+  }
+]
+[2025-08-18T11:47:18.832Z] error: <httpProxy> Error calling http://192.168.50.20:32400/...
+[2025-08-18T11:47:18.833Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.20:32400
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.20:32400) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.20',
+    port: 32400
+  }
+]
+[2025-08-18T11:47:18.833Z] error: <httpProxy> Error calling http://192.168.50.22:7878/api/v3/movie...
+[2025-08-18T11:47:18.833Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.22:7878
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.22:7878) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.22',
+    port: 7878
+  }
+]
+[2025-08-18T11:47:18.834Z] error: <httpProxy> Error calling http://192.168.50.21:8989/api/v3/queue/details...
+[2025-08-18T11:47:18.834Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.21:8989
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.21:8989) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.21',
+    port: 8989
+  }
+]
+[2025-08-18T11:47:18.834Z] error: <httpProxy> Error calling http://192.168.50.21:8989/api/v3/queue...
+[2025-08-18T11:47:18.835Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.21:8989
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.21:8989) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.21',
+    port: 8989
+  }
+]
+[2025-08-18T11:47:18.835Z] error: <httpProxy> Error calling http://192.168.50.21:8989/api/v3/series...
+[2025-08-18T11:47:18.835Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.21:8989
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.21:8989) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.21',
+    port: 8989
+  }
+]
+[2025-08-18T11:47:18.835Z] error: <httpProxy> Error calling http://192.168.50.21:8989/api/v3/wanted/missing...
+[2025-08-18T11:47:18.836Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.21:8989
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.21:8989) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.21',
+    port: 8989
+  }
+]
+[2025-08-18T11:48:48.940Z] error: <httpProxy> Error calling http://192.168.50.21:8989/api/v3/wanted/missing...
+[2025-08-18T11:48:48.940Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.21:8989
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.21:8989) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.21',
+    port: 8989
+  }
+]
+[2025-08-18T11:48:48.941Z] error: <httpProxy> Error calling http://192.168.50.21:8989/api/v3/queue...
+[2025-08-18T11:48:48.941Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.21:8989
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.21:8989) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.21',
+    port: 8989
+  }
+]
+[2025-08-18T11:48:48.941Z] error: <httpProxy> Error calling http://192.168.50.21:8989/api/v3/series...
+[2025-08-18T11:48:48.942Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.21:8989
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.21:8989) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.21',
+    port: 8989
+  }
+]
+[2025-08-18T11:48:48.942Z] error: <httpProxy> Error calling http://192.168.50.20:32400/...
+[2025-08-18T11:48:48.942Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.20:32400
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.20:32400) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.20',
+    port: 32400
+  }
+]
+[2025-08-18T11:48:48.943Z] error: <httpProxy> Error calling http://192.168.50.22:7878/api/v3/movie...
+[2025-08-18T11:48:48.943Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.22:7878
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.22:7878) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.22',
+    port: 7878
+  }
+]
+[2025-08-18T11:48:48.943Z] error: <httpProxy> Error calling http://192.168.50.21:8989/api/v3/queue/details...
+[2025-08-18T11:48:48.944Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.21:8989
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.21:8989) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.21',
+    port: 8989
+  }
+]
+[2025-08-18T11:54:38.755Z] error: <httpProxy> Error calling http://192.168.50.22:7878/api/v3/movie...
+[2025-08-18T11:54:38.758Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.22:7878
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.22:7878) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.22',
+    port: 7878
+  }
+]
+[2025-08-18T11:54:38.759Z] error: <httpProxy> Error calling http://192.168.50.21:8989/api/v3/series...
+[2025-08-18T11:54:38.760Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.21:8989
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.21:8989) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.21',
+    port: 8989
+  }
+]
+[2025-08-18T11:54:38.760Z] error: <httpProxy> Error calling http://192.168.50.21:8989/api/v3/queue...
+[2025-08-18T11:54:38.761Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.21:8989
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.21:8989) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.21',
+    port: 8989
+  }
+]
+[2025-08-18T11:54:38.761Z] error: <httpProxy> Error calling http://192.168.50.21:8989/api/v3/queue/details...
+[2025-08-18T11:54:38.761Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.21:8989
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.21:8989) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.21',
+    port: 8989
+  }
+]
+[2025-08-18T11:54:38.762Z] error: <httpProxy> Error calling http://192.168.50.21:8989/api/v3/wanted/missing...
+[2025-08-18T11:54:38.762Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.21:8989
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.21:8989) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.21',
+    port: 8989
+  }
+]
+[2025-08-18T11:54:38.763Z] error: <httpProxy> Error calling http://192.168.50.20:32400/...
+[2025-08-18T11:54:38.763Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.50.20:32400
+      at <unknown> (Error: connect ETIMEDOUT 192.168.50.20:32400) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.50.20',
+    port: 32400
+  }
+]
+[2025-08-18T11:54:38.810Z] error: <proxmoxStatsService> HTTP Error 500 calling Proxmox API
+[2025-08-18T11:54:43.896Z] error: <httpProxy> Error calling https://api.github.com/repos/gethomepage/homepage/releases...
+[2025-08-18T11:54:43.897Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN api.github.com] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'api.github.com'
+  }
+]
