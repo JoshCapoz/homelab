@@ -8,22 +8,6 @@
         href: http://192.168.50.20:32400/web
         description: Media server
         siteMonitor: http://192.168.50.20:32400
-    - Sonarr:
-        icon: sonarr.png
-        href: http://192.168.50.21:8989
-        description: Series management
-        widget:
-          type: sonarr
-          url: http://192.168.50.21:8989
-          key: apikeyapikeyapikeyapikeyapikey
-    - Radarr:
-        icon: radarr.png
-        href: http://192.168.50.22:7878
-        description: Movie management
-        widget:
-          type: radarr
-          url: http://192.168.50.22:7878
-          key: apikeyapikeyapikeyapikeyapikey
 
 - Infrastructure:
     - Proxmox:
@@ -34,12 +18,12 @@
 
     - Pi-hole:
         icon: pi-hole.png
-        href: http://192.168.50.6/admin
+        href: https://192.168.50.6/admin
         description: DNS & Ad blocking
-        siteMonitor: http://192.168.50.6/admin
+        siteMonitor: https://192.168.50.6/admin
         widget:
           type: pihole
-          url: http://192.168.50.6
+          url: https://192.168.50.6
           version: 6                 # REQUIRED for v6+
           #key: <your-app-password>   # v6: use your password or an app password
           fields: ["queries", "blocked", "blocked_percent", "gravity"]
@@ -49,11 +33,23 @@
         href: https://192.168.50.5:8443
         description: Unifi Controller
 
+    - NAS:
+        icon: si-qnap
+        href: https://192.168.60.12
+        description: Primary NAS
+        widget:
+          type: qnap
+          url: https://192.168.60.12
+          username: {{ secrets.qnap_user }}
+          password: {{ secrets.qnap_pass }}
+          fields: ["cpuUsage", "memUsage", "systemTempC", "poolUsage"]
+
+
 # Example: QEMU VM (defaults to proxmoxType: qemu)
 
     - Portainer LXC:
-        icon: pi-hole.png
-        href: http://192.168.60.13:9443
+        icon: portainer.png
+        href: https://192.168.60.13:9443
         description: Container management
         proxmoxNode: pve
         proxmoxVMID: 300

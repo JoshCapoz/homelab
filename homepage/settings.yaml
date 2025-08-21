@@ -1,10 +1,95 @@
----
-# For configuration options and examples, please see:
-# https://gethomepage.dev/configs/settings/
+# =========================
+#  Homepage settings.yaml
+# =========================
 
-title: Life OS
-description: Josh's Homebase
+# --- VISUALS ---
+background:
+  image: https://images.wallpapersden.com/image/download/fantasy-landscape_am5oamiUmZqaraWkpJRnamtlrWZpaWU.jpg
+  blur: md
+  saturate: 75
+  brightness: 75
+  opacity: 40
 
-providers:
-  openweathermap: openweathermapapikey
-  weatherapi: weatherapiapikey
+# Theme & accent color
+theme: dark
+color: slate
+
+# Icons & branding
+iconStyle: theme
+
+# Layout width and grid behavior
+fullWidth: true
+maxGroupColumns: 8
+maxBookmarkGroupColumns: 8
+useEqualHeights: true
+
+# Header look
+headerStyle: underlined
+
+# --- UX & BEHAVIOR ---
+language: en-AU
+target: _blank
+
+quicklaunch:
+  provider: google
+  showSearchSuggestions: true
+  hideInternetSearch: false
+  searchDescriptions: true
+  hideVisitURL: false
+
+statusStyle: "dot"
+showStats: true
+
+hideVersion: false
+disableUpdateCheck: false
+hideErrors: false
+
+instanceName: homelab
+
+# logpath: /app/config/logs         # optional; defaults to config/logs/
+
+# providers:
+#   openweathermap: YOUR_OWM_API_KEY
+
+# =========================
+#  LAYOUT (single page)
+# =========================
+# Group names below should match groups in services.yaml/bookmarks.yaml
+
+layout:
+  # --- MEDIA (Plex, Jellyfin, Radarr/Sonarr, qBittorrent, Lidarr, etc.) ---
+  Media:
+    style: column
+    columns: 4
+    icon: https://cdn-icons-png.flaticon.com/512/1384/1384060.png
+    # e.g. services.yaml groups: "Media", "Streaming"
+
+  # --- INFRASTRUCTURE (Monitoring, VMs, Proxmox, Networking, NAS, Backups) ---
+  Infrastructure:
+    style: column
+    columns: 4
+    icon: mdi-server
+    # If you want sub-sections later, you can nest them like this:
+    Monitoring:
+      style: column
+      columns: 4
+    Virtualization & Hosts:
+      style: column
+      columns: 4
+    Networking:
+      style: column
+      columns: 4
+    Storage & Backups:
+      style: column
+      columns: 4
+
+  # --- MISC (Tools, Utilities, Docs, Admin UIs) ---
+  Misc:
+    style: column
+    columns: 4
+    icon: mdi-wrench
+    # A minimal utilities strip without a header looks tidy:
+    Utilities:
+      style: column
+      columns: 6
+      header: false

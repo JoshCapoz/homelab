@@ -8,25 +8,25 @@
     disk: /
 
 - search:
-    provider: duckduckgo
+    provider: google
     target: _blank
 
-- uptime: true
+#- uptime: true
 
-- ping:
-    - name: Router
-      url: 192.168.50.1
-    - name: Pi-hole
-      url: 192.168.50.7
+#- ping:
+    #- name: Router
+     # url: 192.168.50.1
+    #- name: Pi-hole
+      #url: 192.168.50.7
 
-- weather:
-    latitude: -31.95
-    longitude: 115.86
-    units: metric
+#- weather:
+    #latitude: -31.95
+    #longitude: 115.86
+    #units: metric
 
 - datetime:
     locale: en-AU
-    text_size: xl
+    text_size: l
     format:
       weekday: short        # e.g., Mon
       day: 2-digit          # e.g., 18
