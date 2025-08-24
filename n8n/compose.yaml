@@ -1,16 +1,16 @@
 version: "3.9"
-
 services:
   n8n:
     image: n8nio/n8n:1.107.4
     container_name: n8n
     restart: unless-stopped
-    ports:
-      - "127.0.0.1:5678:5678"   # local only, tunnel will hit it
+    # no ports: needed for inter-container access, but okay to leave the localhost publish if you want local testing
+    # ports:
+    #   - "127.0.0.1:5678:5678"
     environment:
       - N8N_HOST=n8n.joshcapozzi.com
       - N8N_PORT=5678
-      - N8N_PROTOCOL=http                    # tunnel uses HTTP inside
+      - N8N_PROTOCOL=http
       - WEBHOOK_URL=https://n8n.joshcapozzi.com/
       - TZ=Australia/Perth
       - NODE_ENV=production
