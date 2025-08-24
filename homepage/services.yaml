@@ -2,19 +2,16 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/configs/services/
 
-- Media:
-    - Plex:
-        icon: plex.png
-        href: http://192.168.50.20:32400/web
-        description: Media server
-        siteMonitor: http://192.168.50.20:32400
+- Networking:
+    - Firewall:
+        icon: sophos.png
+        href: https://192.168.50.1:4444
+        description: Router & Firewall
 
-- Infrastructure:
-    - Proxmox:
-        icon: proxmox.png
-        href: https://192.168.60.11:8006
-        description: Virtualization host
-        ping: 192.168.60.11
+    - UniFi:
+        icon: unifi.png
+        href: https://192.168.50.5:8443
+        description: Unifi Controller
 
     - Pi-hole:
         icon: pi-hole.png
@@ -28,10 +25,12 @@
           #key: <your-app-password>   # v6: use your password or an app password
           fields: ["queries", "blocked", "blocked_percent", "gravity"]
 
-    - UniFi:
-        icon: unifi.png
-        href: https://192.168.50.5:8443
-        description: Unifi Controller
+- Infrastructure:
+    - Proxmox:
+        icon: proxmox.png
+        href: https://192.168.60.11:8006
+        description: Virtualization host
+        ping: 192.168.60.11
 
     - NAS:
         icon: si-qnap
@@ -44,9 +43,6 @@
           password: {{ secrets.qnap_pass }}
           fields: ["cpuUsage", "memUsage", "systemTempC", "poolUsage"]
 
-
-# Example: QEMU VM (defaults to proxmoxType: qemu)
-
     - Portainer LXC:
         icon: portainer.png
         href: https://192.168.60.13:9443
@@ -54,3 +50,16 @@
         proxmoxNode: pve
         proxmoxVMID: 300
         proxmoxType: lxc
+
+- Media:
+    - Plex:
+        icon: plex.png
+        href: http://192.168.50.20:32400/web
+        description: Media server
+        siteMonitor: http://192.168.50.20:32400
+
+- Monitoring:
+    - Uptime Kuma:
+        icon: uptime-kuma.png
+        href: http://192.168.60.13:3001
+        descirption: Montioring

@@ -82,14 +82,3 @@ layout:
     Storage & Backups:
       style: column
       columns: 4
-
-  # --- MISC (Tools, Utilities, Docs, Admin UIs) ---
-  Misc:
-    style: column
-    columns: 4
-    icon: mdi-wrench
-    # A minimal utilities strip without a header looks tidy:
-    Utilities:
-      style: column
-      columns: 6
-      header: false

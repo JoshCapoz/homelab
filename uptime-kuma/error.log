@@ -1,0 +1,12 @@
+[2025-08-23 10:30:28] Error: Unable to acquire a connection
+    at Client_SQLite3.acquireConnection (/app/node_modules/knex/lib/client.js:303:13)
+    at Runner.ensureConnection (/app/node_modules/knex/lib/execution/runner.js:287:46)
+    at Runner.run (/app/node_modules/knex/lib/execution/runner.js:30:30)
+    at Target.then (/app/node_modules/knex/lib/builder-interface-augmenter.js:24:43)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2025-08-23 10:30:28] Error: Unable to acquire a connection
+    at Client_SQLite3.acquireConnection (/app/node_modules/knex/lib/client.js:303:13)
+    at Runner.ensureConnection (/app/node_modules/knex/lib/execution/runner.js:287:46)
+    at Runner.run (/app/node_modules/knex/lib/execution/runner.js:30:30)
+    at Target.then (/app/node_modules/knex/lib/builder-interface-augmenter.js:24:43)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
