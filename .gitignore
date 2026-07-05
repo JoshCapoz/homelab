@@ -8,3 +8,7 @@
 *.log
 .env
 logs/
+
+# Never commit the real compose file once VPN secrets are filled in
+# (consider using .env file instead, see note below)
+arr-stack/.env

@@ -7,22 +7,18 @@ services:
     devices:
       - /dev/net/tun:/dev/net/tun
     ports:
-      - "8080:8080"   # qBittorrent WebUI (served via Gluetun)
-      - "6881:6881"   # qBittorrent torrent port (TCP)
+      - "8080:8080"
+      - "6881:6881"
       - "6881:6881/udp"
     volumes:
       - /opt/docker/arr-stack/gluetun:/gluetun
     environment:
       VPN_SERVICE_PROVIDER: protonvpn
       VPN_TYPE: wireguard
-      # --- Fill these in once you've generated your ProtonVPN WireGuard config ---
-      WIREGUARD_PRIVATE_KEY: "REPLACE_ME"
-      WIREGUARD_ADDRESSES: "REPLACE_ME"          # e.g. 10.2.0.2/32, from the .conf file
-      # Optional: restrict to specific countries/servers, or leave blank for any P2P server
+      WIREGUARD_PRIVATE_KEY: "${WIREGUARD_PRIVATE_KEY}"
+      WIREGUARD_ADDRESSES: "${WIREGUARD_ADDRESSES}"
       SERVER_COUNTRIES: ""
-      # Port forwarding (needs Proton Plus + port forwarding enabled in account settings)
       VPN_PORT_FORWARDING: "on"
-      # Allow LAN devices to reach qBittorrent's WebUI through Gluetun
       FIREWALL_OUTBOUND_SUBNETS: "192.168.60.0/24"
       TZ: Australia/Perth
     restart: unless-stopped
