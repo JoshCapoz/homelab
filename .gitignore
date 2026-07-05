@@ -1,2 +1,10 @@
 **/secrets/*
 .DS_Store
+
+# Runtime data - never commit
+*.db
+*.db-shm
+*.db-wal
+*.log
+.env
+logs/
