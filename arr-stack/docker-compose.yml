@@ -19,7 +19,9 @@ services:
       WIREGUARD_ADDRESSES: "${WIREGUARD_ADDRESSES}"
       SERVER_COUNTRIES: "${SERVER_COUNTRIES}"
       VPN_PORT_FORWARDING: "on"
+      VPN_PORT_FORWARDING_UP_COMMAND: "/gluetun/port-forward-up.sh {{PORT}} {{VPN_INTERFACE}}"
       FIREWALL_OUTBOUND_SUBNETS: "192.168.60.0/24"
+      FIREWALL_INPUT_PORTS: "${FIREWALL_INPUT_PORTS}"
       TZ: Australia/Perth
     restart: unless-stopped
 
